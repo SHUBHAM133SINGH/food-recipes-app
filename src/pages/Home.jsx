@@ -32,7 +32,7 @@ function Home() {
 
       <div className='text-center mt-10'>
         <h1 className='text-6xl font-bold'>
-          Discover Amazing Recipes
+          Discover Amazing Recipes by Shubham Singh.......
         </h1>
 
         <p className='mt-5 text-gray-300'>
