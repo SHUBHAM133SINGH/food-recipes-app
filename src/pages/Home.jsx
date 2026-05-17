@@ -84,7 +84,7 @@ import { faSmile, faUtensils, faFire } from '@fortawesome/free-solid-svg-icons'
 
 function Home() {
   const [recipes, setRecipes] = useState([])
-  const [search, setSearch] = useState('pizza')
+  const [search, setSearch] = useState('Pizza')
   const [loading, setLoading] = useState(false)
 
   const handleSearch = useCallback(async () => {
@@ -105,7 +105,7 @@ function Home() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-black text-white selection:bg-orange-500 selection:text-white">
+    <div className="min-h-screen bg-linear-to-b from-gray-900 via-gray-800 to-black text-white selection:bg-orange-500 selection:text-white">
       {/* Navigation */}
       <Navbar />
 
@@ -122,9 +122,9 @@ function Home() {
         </div>
 
         {/* Main Heading with Integrated Smiley */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-none bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-none bg-linear-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
           Discover Amazing Recipes by{' '}
-          <span className="block sm:inline bg-gradient-to-r from-orange-400 via-amber-400 to-yellow-400 bg-clip-text text-transparent drop-shadow-sm whitespace-nowrap">
+          <span className="block sm:inline bg-linear-to-r from-orange-400 via-amber-400 to-yellow-400 bg-clip-text text-transparent drop-shadow-sm whitespace-nowrap">
             Shubham Singh
             {/* The Smiley: Aligned inline, scales with text, shifts on hover */}
             <FontAwesomeIcon 
