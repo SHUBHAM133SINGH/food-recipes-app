@@ -84,7 +84,7 @@ import { faSmile, faUtensils, faFire } from '@fortawesome/free-solid-svg-icons'
 
 function Home() {
   const [recipes, setRecipes] = useState([])
-  const [search, setSearch] = useState('Pizza')
+  const [search, setSearch] = useState('Chicken')
   const [loading, setLoading] = useState(false)
 
   const handleSearch = useCallback(async () => {
